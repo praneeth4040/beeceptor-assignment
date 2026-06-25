@@ -8,7 +8,7 @@ test.describe('Beeceptor Proxy Health Check Verification', () => {
     expect(response.status()).toBe(200);
 
     const body = await response.json();
-    console.log('Received response:', JSON.stringify(body, null, 2));
+    console.log('Received response (synchronous):', JSON.stringify(body, null, 2));
 
     expect(body).toHaveProperty('status');
     expect(body.status).toBe('UP');
