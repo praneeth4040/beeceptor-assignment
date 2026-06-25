@@ -2,6 +2,12 @@
 
 This repository contains a basic Express.js server and a Playwright test script to verify endpoint proxy routing using Beeceptor and ngrok.
 
+## Demo Video
+
+Check out the step-by-step setup and verification run in the demo video:
+
+<video src="./video/demo.mp4" controls width="100%"></video>
+
 ## Project Structure
 
 ```text
